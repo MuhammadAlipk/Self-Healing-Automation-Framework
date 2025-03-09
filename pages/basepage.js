@@ -5,7 +5,7 @@ export class BasePage {
    */
   constructor(page) {
     this.page = page;
-    this.url = "https://opensource-demo.orangehrmlive.com/";
+    this.url = "";
   }
 
   async findElement(Selectors, elementName, elementPosition) {
